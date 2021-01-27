@@ -1,12 +1,3 @@
-# MicJS
-A simple to use library which let you play audio bytes or get audio data from device microphone (This library needs java as an agent since i found no way of accessing micerohone with pure nodejs)
-
-### I'm accepting pull requests if anyone wants to help this project to grow
-
-
-# Basic Usage
-- To create a simple audio playback system, you can use the example below which includes a complete example of how to use this lib
-```js
 var mic = require('./AudioAPI.js');
 
 // Create a new instance of mic class and name it as make
@@ -68,6 +59,5 @@ make.command("127.0.0.1", make.commands.COMMAND_REQUEST_SPEAK, 8001).then(() => 
     // Getting Error Object
 })
 
-```
 
 
